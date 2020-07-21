@@ -44,9 +44,12 @@ let ctrl = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewControl
 InAppLocalization.shared().setCurrentLanguageCode("ja", reload: ctrl) { (view) in
    view.alpha = 0
 }
-```
 
-**Attention**: if you set the parameter of **reload** to nil, then you should reload your view controller by yourself.
+// or set the parameter of 'reload' to nil, then you do reload your view controller by yourself
+InAppLocalization.shared().setCurrentLanguageCode(language.languageCode, reload: nil, animation: nil)
+// reload your view controller here
+// ...
+```
 
 ## Requirements
 
