@@ -46,7 +46,7 @@ InAppLocalization.shared().setCurrentLanguageCode("ja", reload: ctrl) { (view) i
 }
 ```
 
-**Attention**: if set the viewController's **modalPresentationStyle** is **.fullScreen** or **.currentContext**, when dismissing viewController with the gesture, you cann't see the source viewController, replace it with a black background, so if you want to see the source viewController, please set **modalPresentationStyle** to other styles.
+**Attention**: if you set the parameter of **reload** to nil, then you should reload your view controller by yourself.
 
 ## Requirements
 
