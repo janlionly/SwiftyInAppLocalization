@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  InAppLocalizationDemo
+
+  Created by janlionly on 2020/7/21.
+  Copyright © 2020 janlionly. All rights reserved.
+*/
+"Hello" = "こんにちは";

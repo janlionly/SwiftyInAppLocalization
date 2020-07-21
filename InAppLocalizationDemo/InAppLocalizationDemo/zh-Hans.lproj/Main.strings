@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "3Ip-Ks-EdY"; */
+"3Ip-Ks-EdY.text" = "Hello";
+
+/* Class = "UILabel"; text = "French"; ObjectID = "Bpd-MD-smR"; */
+"Bpd-MD-smR.text" = "French";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "Kom-CQ-qxr"; */
+"Kom-CQ-qxr.text" = "English";
+
+/* Class = "UILabel"; text = "Simplified Chinese"; ObjectID = "eIp-RA-kID"; */
+"eIp-RA-kID.text" = "Simplified Chinese";
+
+/* Class = "UIButton"; normalTitle = "Select Language"; ObjectID = "orF-Mh-vIA"; */
+"orF-Mh-vIA.normalTitle" = "Select Language";
+
+/* Class = "UILabel"; text = "Japanese"; ObjectID = "uor-rv-GGV"; */
+"uor-rv-GGV.text" = "Japanese";
+
+/* Class = "UILabel"; text = "Traditional Chinese"; ObjectID = "vnl-ZY-IEM"; */
+"vnl-ZY-IEM.text" = "Traditional Chinese";
