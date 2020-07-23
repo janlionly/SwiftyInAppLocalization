@@ -1,18 +1,18 @@
 # InAppLocalization
 
-[![Version](https://img.shields.io/cocoapods/v/InAppLocalization.svg?style=flat)](https://cocoapods.org/pods/InAppLocalization)
+[![Version](https://img.shields.io/cocoapods/v/SwiftyInAppLocalization.svg?style=flat)](https://cocoapods.org/pods/SwiftyInAppLocalization)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](https://img.shields.io/cocoapods/l/InAppLocalization.svg?style=flat)](https://github.com/janlionly/InAppLocalization/blob/master/LICENSE)
-[![Platform](https://img.shields.io/cocoapods/p/InAppLocalization.svg?style=flat)](https://github.com/janlionly/InAppLocalization)
+[![License](https://img.shields.io/cocoapods/l/SwiftyInAppLocalization.svg?style=flat)](https://github.com/janlionly/SwiftyInAppLocalization/blob/master/LICENSE)
+[![Platform](https://img.shields.io/cocoapods/p/SwiftyInAppLocalization.svg?style=flat)](https://github.com/janlionly/SwiftyInAppLocalization)
 ![Swift](https://img.shields.io/badge/%20in-swift%204.2-orange.svg)
 
 ## Description
-**InAppLocalization** which supports to switch the language at run time. Compatible with both Swift and Objective-C.
+**SwiftyInAppLocalization** which supports to switch the language at run time. Compatible with both Swift and Objective-C.
 
 ## Installation
 ### CocoaPods
 ```swift
-pod 'InAppLocalization'
+pod 'SwiftyInAppLocalization'
 ```
 
 ### Carthage
@@ -21,10 +21,10 @@ github "janlionly/InAppLocalization"
 ```
 
 ### Swift Package Manager
-- iOS: Open Xcode, File->Swift Packages, search input **https://github.com/janlionly/InAppLocalization.git**, and then select Version Up to Next Major **1.0.0** < .
+- iOS: Open Xcode, File->Swift Packages, search input **https://github.com/janlionly/SwiftyInAppLocalization.git**, and then select Version Up to Next Major **1.0.0** < .
 - Or add dependencies in your `Package.swift`:
 ```swift
-.package(url: "https://github.com/janlionly/InAppLocalization.git", .upToNextMajor(from: "1.0.0")),
+.package(url: "https://github.com/janlionly/SwiftyInAppLocalization.git", .upToNextMajor(from: "1.0.0")),
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
   return true
 }
 
-// somewhere you want to change language call this, remember to reload your view controller.
+// somewhere you want to change language call "setCurrentLanguageCode", and must reload your view controller.
 let ctrl = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()!
 InAppLocalization.shared().setCurrentLanguageCode("ja", reload: ctrl) { (view) in
    view.alpha = 0
@@ -61,7 +61,7 @@ Visit my github: [janlionly](https://github.com/janlionly)<br>
 Contact with me by email: janlionly@gmail.com
 
 ## Contribute
-I would love you to contribute to **InAppLocalization**
+I would love you to contribute to **SwiftyInAppLocalization**
 
 ## License
-**InAppLocalization** is available under the MIT license. See the [LICENSE](https://github.com/janlionly/InAppLocalization/blob/master/LICENSE) file for more info.
+**SwiftyInAppLocalization** is available under the MIT license. See the [LICENSE](https://github.com/janlionly/SwiftyInAppLocalization/blob/master/LICENSE) file for more info.
