@@ -1,4 +1,4 @@
-# InAppLocalization
+# SwiftyInAppLocalization
 
 [![Version](https://img.shields.io/cocoapods/v/SwiftyInAppLocalization.svg?style=flat)](https://cocoapods.org/pods/SwiftyInAppLocalization)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -17,7 +17,7 @@ pod 'SwiftyInAppLocalization'
 
 ### Carthage
 ```swift
-github "janlionly/InAppLocalization"
+github "janlionly/SwiftyInAppLocalization"
 ```
 
 ### Swift Package Manager
@@ -35,18 +35,18 @@ Before do this, Firstly, you should set your **localizations** in your Xcode pro
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
   // Set you default language after launching
-  InAppLocalization.shared().defaultLanguageCode = "en"
+  SwiftyInAppLocalization.shared().defaultLanguageCode = "en"
   return true
 }
 
 // somewhere you want to change language call "setCurrentLanguageCode", and must reload your view controller.
 let ctrl = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()!
-InAppLocalization.shared().setCurrentLanguageCode("ja", reload: ctrl) { (view) in
+SwiftyInAppLocalization.shared().setCurrentLanguageCode("ja", reload: ctrl) { (view) in
    view.alpha = 0
 }
 
 // or set the parameter of 'reload' to nil, then you do reload your view controller by yourself
-InAppLocalization.shared().setCurrentLanguageCode(language.languageCode, reload: nil, animation: nil)
+SwiftyInAppLocalization.shared().setCurrentLanguageCode(language.languageCode, reload: nil, animation: nil)
 // reload your view controller here
 // ...
 ```

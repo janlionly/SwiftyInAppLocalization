@@ -1,12 +1,12 @@
 //
-//  InAppLocalization.m
-//  InAppLocalizationDemo
+//  SwiftyInAppLocalization.m
+//  SwiftyInAppLocalizationDemo
 //
 //  Created by janlionly on 2020/7/21.
 //  Copyright © 2020 janlionly. All rights reserved.
 //
 
-#import "InAppLocalization.h"
+#import "SwiftyInAppLocalization.h"
 #import <objc/runtime.h>
 
 @interface NSBundle (Language)
@@ -54,16 +54,16 @@ static const char bundleKey = 0;
 
 @end
 
-@implementation InAppLocalization
+@implementation SwiftyInAppLocalization
 
-#define SelectedLanguageKey     @"InAppLocalizationSelectedLanguageKey"
-#define DefaultLanguageKey      @"InAppLocalizationDefaultLanguageKey"
+#define SelectedLanguageKey     @"SwiftyInAppLocalizationSelectedLanguageKey"
+#define DefaultLanguageKey      @"SwiftyInAppLocalizationDefaultLanguageKey"
 
 + (instancetype)shared {
-    static InAppLocalization *l10n = nil;
+    static SwiftyInAppLocalization *l10n = nil;
     
     if (l10n == nil) {
-        l10n = [[InAppLocalization alloc] init];
+        l10n = [[SwiftyInAppLocalization alloc] init];
 //        NSString *language = l10n.currentLanguageCode;
 //        [NSBundle setLanguage:language];
         

@@ -1,6 +1,6 @@
 //
-//  InAppLocalization.h
-//  InAppLocalizationDemo
+//  SwiftyInAppLocalization.h
+//  SwiftyInAppLocalizationDemo
 //
 //  Created by janlionly on 2020/7/21.
 //  Copyright © 2020 janlionly. All rights reserved.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface InAppLocalization : NSObject
+@interface SwiftyInAppLocalization : NSObject
 
 + (instancetype)shared;
 

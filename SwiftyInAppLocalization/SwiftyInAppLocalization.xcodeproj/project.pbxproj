@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27C6B47924C702F100F6CD05 /* InAppLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C6B47724C702F100F6CD05 /* InAppLocalization.m */; };
-		27C6B47A24C702F100F6CD05 /* InAppLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C6B47824C702F100F6CD05 /* InAppLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27CA489526B5D832005F8FA4 /* SwiftyInAppLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CA489326B5D832005F8FA4 /* SwiftyInAppLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27CA489626B5D832005F8FA4 /* SwiftyInAppLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CA489426B5D832005F8FA4 /* SwiftyInAppLocalization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27C6B46C24C702CA00F6CD05 /* InAppLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InAppLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C6B46C24C702CA00F6CD05 /* SwiftyInAppLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyInAppLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C6B47024C702CA00F6CD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27C6B47724C702F100F6CD05 /* InAppLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InAppLocalization.m; path = ../../Sources/InAppLocalization/InAppLocalization.m; sourceTree = "<group>"; };
-		27C6B47824C702F100F6CD05 /* InAppLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InAppLocalization.h; path = ../../Sources/InAppLocalization/InAppLocalization.h; sourceTree = "<group>"; };
+		27CA489326B5D832005F8FA4 /* SwiftyInAppLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyInAppLocalization.h; path = ../../Sources/SwiftyInAppLocalization/SwiftyInAppLocalization.h; sourceTree = "<group>"; };
+		27CA489426B5D832005F8FA4 /* SwiftyInAppLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwiftyInAppLocalization.m; path = ../../Sources/SwiftyInAppLocalization/SwiftyInAppLocalization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,7 @@
 		27C6B46224C702CA00F6CD05 = {
 			isa = PBXGroup;
 			children = (
-				27C6B46E24C702CA00F6CD05 /* InAppLocalization */,
+				27C6B46E24C702CA00F6CD05 /* SwiftyInAppLocalization */,
 				27C6B46D24C702CA00F6CD05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,19 +40,19 @@
 		27C6B46D24C702CA00F6CD05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27C6B46C24C702CA00F6CD05 /* InAppLocalization.framework */,
+				27C6B46C24C702CA00F6CD05 /* SwiftyInAppLocalization.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27C6B46E24C702CA00F6CD05 /* InAppLocalization */ = {
+		27C6B46E24C702CA00F6CD05 /* SwiftyInAppLocalization */ = {
 			isa = PBXGroup;
 			children = (
-				27C6B47824C702F100F6CD05 /* InAppLocalization.h */,
-				27C6B47724C702F100F6CD05 /* InAppLocalization.m */,
+				27CA489326B5D832005F8FA4 /* SwiftyInAppLocalization.h */,
+				27CA489426B5D832005F8FA4 /* SwiftyInAppLocalization.m */,
 				27C6B47024C702CA00F6CD05 /* Info.plist */,
 			);
-			path = InAppLocalization;
+			path = SwiftyInAppLocalization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,16 +62,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C6B47A24C702F100F6CD05 /* InAppLocalization.h in Headers */,
+				27CA489526B5D832005F8FA4 /* SwiftyInAppLocalization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		27C6B46B24C702CA00F6CD05 /* InAppLocalization */ = {
+		27C6B46B24C702CA00F6CD05 /* SwiftyInAppLocalization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27C6B47424C702CA00F6CD05 /* Build configuration list for PBXNativeTarget "InAppLocalization" */;
+			buildConfigurationList = 27C6B47424C702CA00F6CD05 /* Build configuration list for PBXNativeTarget "SwiftyInAppLocalization" */;
 			buildPhases = (
 				27C6B46724C702CA00F6CD05 /* Headers */,
 				27C6B46824C702CA00F6CD05 /* Sources */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = InAppLocalization;
+			name = SwiftyInAppLocalization;
 			productName = InAppLocalization;
-			productReference = 27C6B46C24C702CA00F6CD05 /* InAppLocalization.framework */;
+			productReference = 27C6B46C24C702CA00F6CD05 /* SwiftyInAppLocalization.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 27C6B46624C702CA00F6CD05 /* Build configuration list for PBXProject "InAppLocalization" */;
+			buildConfigurationList = 27C6B46624C702CA00F6CD05 /* Build configuration list for PBXProject "SwiftyInAppLocalization" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27C6B46B24C702CA00F6CD05 /* InAppLocalization */,
+				27C6B46B24C702CA00F6CD05 /* SwiftyInAppLocalization */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C6B47924C702F100F6CD05 /* InAppLocalization.m in Sources */,
+				27CA489626B5D832005F8FA4 /* SwiftyInAppLocalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,20 +262,20 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = A73XC757VV;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = InAppLocalization/Info.plist;
+				INFOPLIST_FILE = SwiftyInAppLocalization/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.janlionly.InAppLocalization;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlionly.SwiftyInAppLocalization;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -288,20 +288,20 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = A73XC757VV;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = InAppLocalization/Info.plist;
+				INFOPLIST_FILE = SwiftyInAppLocalization/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.janlionly.InAppLocalization;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlionly.SwiftyInAppLocalization;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -312,7 +312,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27C6B46624C702CA00F6CD05 /* Build configuration list for PBXProject "InAppLocalization" */ = {
+		27C6B46624C702CA00F6CD05 /* Build configuration list for PBXProject "SwiftyInAppLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27C6B47224C702CA00F6CD05 /* Debug */,
@@ -321,7 +321,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27C6B47424C702CA00F6CD05 /* Build configuration list for PBXNativeTarget "InAppLocalization" */ = {
+		27C6B47424C702CA00F6CD05 /* Build configuration list for PBXNativeTarget "SwiftyInAppLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27C6B47524C702CA00F6CD05 /* Debug */,
